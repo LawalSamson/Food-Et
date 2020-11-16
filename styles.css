@@ -81,11 +81,15 @@ a{
   p{
     color: #5C5C5C;
     font-family: 'Poppins', sans-serif;
-    padding: 10px 0px 5px 5px;
+    padding: 5px 3px 5px 5px;
     font-size: 17px;
     margin: 0px;
     text-align: left;
   }
   
-
+  .footer-img{
+    color: #5C5C5C;
+    padding: 0px 15px 7px 5px;
+    font-size: 20px;
+  }
 }
