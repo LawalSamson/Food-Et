@@ -61,10 +61,6 @@ a:hover{
   color: rgb(202, 190, 190);
 }
 
-.nav-item{
-  padding-right: 80px;
-}
-
 .nav-link{
   color: #5C5C5C;
   font-family: 'Raleway', sans-serif;
@@ -72,11 +68,9 @@ a:hover{
   font-size: 17px;
 }
 
-.foot-img{
-visibility: hidden;
+a .foot-img{
+display: none;
 }
-
-
 
 @media only screen and (max-width:500px) {
 
@@ -112,12 +106,7 @@ visibility: hidden;
     text-align: left;
   }
   
-  .footer-img{
-visibility: hidden;  }
 
-  .nav-item{
-    padding-right: 8px;
-  }
 
   .nav-link{
     color: #5C5C5C;
@@ -126,19 +115,18 @@ visibility: hidden;  }
     font-size: 17px;
   }
 
-  .navbar-brand{
-visibility: visible;
- }
+  a .foot-img{
+    display: inline;
+    font-size: 20px;
+    padding: 10px 20px 5px 0px;
+    float: right;
+  }
 
- .foot-img{
-  color: #5C5C5C;
-  padding: 0px 15px 0px 5px;
-  font-size: 20px;
-}
+  a .footer-img{
+ display: none;
+  }
+  
 
-.foot-img:hover{
-  color: rgb(202, 190, 190);
-}
 
 }
 
