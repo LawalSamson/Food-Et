@@ -73,8 +73,7 @@ a:hover{
 }
 
 .navbar-brand{
-display: none;
-}
+visibility: hidden;}
 
 
 
@@ -113,10 +112,7 @@ display: none;
   }
   
   .footer-img{
-    color: #5C5C5C;
-    padding: 0px 15px 7px 5px;
-    font-size: 23px;
-  }
+visibility: hidden;  }
 
   .nav-item{
     padding-right: 8px;
@@ -130,8 +126,18 @@ display: none;
   }
 
   .navbar-brand{
-display: contents;   
+visibility: visible;
  }
+
+ .foot-img{
+  color: #5C5C5C;
+  padding: 0px 15px 0px 5px;
+  font-size: 20px;
+}
+
+.foot-img:hover{
+  color: rgb(202, 190, 190);
+}
 
 }
 
